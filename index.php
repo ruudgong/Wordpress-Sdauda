@@ -1,0 +1,494 @@
+<!doctype html>
+<html>
+<head>
+   <!-- Required meta tags -->
+    	<!--required meta tags-->
+			<meta charset="UTF-8">
+			<meta name="description" content="sample website">
+			<meta name="keyword" content="HTML, CSS, BOOTSRAP">
+			<meta name="author" content="Dauda Suleiman">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			  
+ 
+		<!--page title-->
+			<title>sample site home_page</title>
+			
+		<!--css link-->
+			<link rel="stylesheet" href="style.css">
+			
+		<!-- Bootstrap CSS -->
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+			
+  </head>
+  
+	
+	 <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+	
+<body>
+<div id="big_wrapper">
+
+		<!--Navigation for first navbar using bootstrap-->
+	<nav class="navbar navbar-expand-sm bg-primary navbar-dark justify-content-end">
+	
+		<!--Navigation link-->	
+			
+				<ul class="nav navbar-nav ">
+					<li class="nav-item">
+						<a class="nav-link" href="register.php">Register</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="login.php">Login</a>
+					</li>
+				</ul>
+				
+		
+	</nav>
+		
+		<!--Navigation using bootstrap-->
+	<nav class="navbar navbar-expand-sm bg-light navbar-light justify-content-end">
+  
+		<!-- Brand -->
+			<a class="navbar-brand" href="#"><h5>OPUUSA <br>Osogbo Progressive Union USA</br></h5></a>
+
+		<!-- Links -->
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link Active" href="index.php">Home</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+					Chapters
+					</a>
+		<!--Dropdown link-->
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="executive.php">Executive Committee</a>
+							<a class="dropdown-item" href="atlanta.php">Atlanta</a>
+							<a class="dropdown-item" href="california.php">California</a>
+							<a class="dropdown-item" href="#">Chicago</a>
+							<a class="dropdown-item" href="#">Dallas</a>
+							<a class="dropdown-item" href="#">Florida</a>
+							<a class="dropdown-item" href="#">Houston</a>
+							<a class="dropdown-item" href="#">Maryland</a>
+							<a class="dropdown-item" href="#">New York</a>
+							<a class="dropdown-item" href="#">Philadelphia</a>
+						</div>
+				</li>	
+				
+
+		<!-- Dropdown -->
+				<li class="nav-item">
+					<a class="nav-link" href="constitution.php">OPUUSA Constitution</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="gallery.php">Gallery</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+					Social events
+					</a>
+		<!--Dropdown link-->
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">National Conventions</a>
+							<a class="dropdown-item" href="#">2019 Chicago Convention</a>
+						</div>			
+				</li>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+					Projects
+					</a>
+		<!--Dropdown link-->
+						<div class="dropdown-menu">
+							
+						</div>				
+					
+				</li>
+			</ul>
+		
+	</nav>
+			
+<div class="container-fluid">				
+		<div id="demo" class="carousel slide" data-ride="carousel">
+				
+				<!... Indicators ....>
+					<ul class="carousel-indicators">
+						<li data-target="#demo" data-slid-to="0" class="active"></li>
+						<li data-target="#demo" data-slid-to="1"></li>
+						<li data-target="#demo" data-slid-to="2"></li>
+					</ul>
+					
+				<!... The slideshow ...>
+				<div class="carousel-inner">
+				
+					<div class="carousel-item active">
+					
+						<img src="images/image3.jpg" alt="images" width="100%" height="500">
+						
+							<div class="carousel-caption">
+							
+								<h1>OSOGBO OROKI ASALA</h1>
+									<p>OSOGBO PROGRESSIVE UNION USA, INC.(OPUUSA).</p>
+									<p>OSOGBO PROGRESSIVE UNION USA, INC.(OPUUSA).</p>
+							</div>
+					</div>
+								
+						<div class="carousel-item">
+							<img src="images/image1.jpg" alt="image" width="100%" height="500">
+							
+								<div class="carousel-caption">
+							
+									<h1>OSOGBO OROKI ASALA</h1>
+										<p>OSOGBO PROGRESSIVE UNION USA, INC.(OPUUSA).</p>
+										<p>OSOGBO PROGRESSIVE UNION USA, INC.(OPUUSA).</p>
+								</div>
+							
+						</div>
+					
+							<div class="carousel-item">
+								<img src="images/self.png" alt="image" width="100%" height="500">
+								
+									<div class="carousel-caption">
+							
+									<h1>OSOGBO OROKI ASALA</h1>
+										<p>OSOGBO PROGRESSIVE UNION USA, INC.(OPUUSA).</p>
+										<p>OSOGBO PROGRESSIVE UNION USA, INC.(OPUUSA).</p>
+									</div>
+							
+									
+							</div>
+				</div>
+			
+				<!... Left and right controls ....>
+				
+					<a class="carousel-control-prev" href="#demo" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					
+					<a class="carousel-control-next" href="#demo" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+		</div>	
+	<div class="zbg">
+		<div class="card-columns">
+				<div class="card bg-light">
+					<div class="card-body text-center">
+						<p class="card-text">
+							<img src="images/here.jpg" alt="images" width="100px" height="100px">
+							<h3>WHO WE ARE</h3>
+							OPUUSA is a federally recognized charitable organization dedicated to 
+							advancing the interest of the city of Osogbo indigenes in the United States.
+						</p>
+					</div>
+				</div>
+				
+			<div class="card bg-light">
+				<div class="card-body text-center">
+					<p class="card-text">
+						<img src="images/love1.jpg" alt="images" width="80px" height="80px">
+						<h3>MISSION</h3>
+						Promoting unity and cooperation in the community of Osogbo indigenes in the United States.
+						Promoting social, economical, cultural and education growth in Osogbo.
+						</p>
+				</div>
+			</div>
+			
+			<div class="card bg-light">
+				<div class="card-body text-center">
+					<p class="card-text">
+						<img src="images/spi1.jpg" alt="images" width="100px" height="100px">
+						<h3>PROJECTS</h3>
+							The umbrella body of sons and daughters of Osogbo origin in dispora.
+							Osogbo Progressive Union (OPUUSA). The OPUUSA Scholarship awards.
+					</p>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+		
+		<div class="media border p-3">
+			<img src="images/group.jpg" alt="images" class="mr-3 mt-3" style="width:50%; height:150%; margin:50px;">
+			
+				<div class="media-body">
+					<div class="h">Welcome to OPUUSA Oroki <br>Asala</br></div>
+						<p>it is with great pleasure that i welcome you to the website of our Great Union 
+						the Osogbo Progressive Union USA(OPUUSA). Member of OPUUSA are sons and daughters of the blessed city of 
+						Osogbo living in the United States of America. We strongly believe in the importance of helping others and giving back 
+						to where we came from, Osogbo. We are of the opinion that all of us achieve our level of success today by reason fo a vast
+						network of people who supported us help others as well and everyone has the ability to help in some way or another. We also
+						believe that what you do for yourself dies with you and what you do for other lives forevers.</p>
+						
+						<a href="speech.php"><button type="text" name="text" class="bt" value="Read More">Read More</button></a>
+				</div>
+		</div>
+		
+	<div id="site_content">
+      <div id="sidebar_container">
+        
+          <h3>Upcoming Events<h3>
+			<div class="sidebar">
+				<div class="sidebar_item">
+            <!-- insert your sidebar items here -->
+					12</br>MAR            
+				</div>SCHOLARSHIP RESULT</br><a href="#">Click here for Result</a></br>
+		  
+			</div>
+			
+        <div class="sidebar">
+				<div class="sidebar_item">
+            <!-- insert your sidebar items here -->
+					12</br>JULY           
+				</div>
+				<div class="sidebar_item">
+					
+				</div>
+		</div>
+		
+		</div>
+		  
+		   <h3>ANNOUNCEMENTS</h3>
+		  
+		   <div class="content">
+        <!-- insert the page content here -->
+		<img src="images/love1.jpg" alt="images" width="40px" height="20px" style="margin-left:15px; margin-top:30px;">
+       <div class="text">
+			<p><header><b>OPUUSA SCHOLARSHIP 2019/2020 APPLICATION & EXAMINATION SCHEDULE NOTICE</b></header></p>
+							 Osogbo Progressive Union, USA 2019/2020 Scholarship Program Application for Osogbo
+							 indigenes </br>in higher institutions of  learning in Nigeria tertiary institutions is available ONLINE.</br>
+							Click on this link below to submit your application: </br>http://www.opu-usa.org/PersonalProfiles/Create</br>
+							Application duration : November 25th, 2019 to December 25th, 2019. No extension!!!!!!</br>
+								Examination scheduled for only those that submit application with the following details:</br>
+								Date : Saturday January 4th, 2020</p>
+									Venue: St Charles’ High School, Ilesha Road, Osogbo</br>
+									Time : 10am prompt</br>
+
+									<p>OPUUSA Scholarship Committee.</p>
+		</div>
+      </div>
+	</div>
+		
+		<div class="case">
+			<center><h2>Our Causes</h2>
+		
+				<p><img src="images/group3.jpg" alt="images" width="200px" height="50px"><p>
+		
+					Promoting social, economic, cultural and education growth in Osogbo.
+		
+				</center></p>
+		</div>
+		
+	
+		<div class="card-columns">
+				<div class="card bg-light">
+					<div class="card-body text-center">
+				
+							<img src="images/img1.jpg" alt="images" width="100%" height="100%"><p>
+							<div class="txt">
+							
+							RAISED: <b>$600</b><p>
+						
+							GOAL: <b>$5000</b><p>
+							
+							SCHOLARSHIP<p>
+							
+								<div class="progress">
+								  <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="50"
+								  aria-valuemin="0" aria-valuemax="100" style="width:12%">
+									12%
+								  </div>
+							</div></p>
+						<p>	
+							OPUUSA Scholarship Fund is dedicated to helping osogbo indigenes in financial need through a 
+							scholarship program, who are continuing their education.
+						</p>
+							 <button type="text" name="text" class="btn" value="Donate">Donate</button>
+						</div>
+					</div>
+				</div>
+				
+			<div class="card bg-light">
+				<div class="card-body text-center">
+					
+						<img src="images/img.jpg" alt="images" width="100%" height="100%"><p>
+						<div class="txt">
+						RAISED: <b>$600</b><p>
+						
+						GOAL: <b>$5000</b><p>
+						
+						EDUCATION FOR OMO OSOGBO<p>
+						
+							<div class="progress">
+								  <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="50"
+								  aria-valuemin="0" aria-valuemax="100" style="width:12%">
+									12%
+								  </div>
+							</div></p>
+						<p>								
+						OPUUSA Scholarship Fund is dedicated to helping osogbo indigenes in financial need through a 
+							scholarship program, who are continuing their education.
+						</p>
+							 <button class="btn" type="submit">Donate</button>
+						</div>
+				</div>
+			</div>
+			
+			<div class="card bg-light">
+				<div class="card-body text-center">
+									
+						<img src="images/img2.jpg" alt="images" width="100%" height="100%"><p>
+						
+						<div class="txt">
+						
+						RAISED: <b>$600</b><p>
+						
+						GOAL: <b>$5000</b><p>
+						
+						
+						<div class="font">SCHOLARSHIP</div><p>
+						
+							<div class="progress">
+								  <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="50"
+								  aria-valuemin="0" aria-valuemax="100" style="width:12%">
+									12%
+								  </div>
+							</div></p>
+						<p>	
+							OPUUSA Scholarship Fund is dedicated to helping osogbo indigenes in financial need through a 
+							scholarship program, who are continuing their education. </p>
+							
+							 <button class="btn" type="submit">Donate</button>
+                                
+					</div>
+				</div>
+			</div>
+		
+		</div>
+	
+		
+		
+		
+	<div class="site_content">	
+		<div class="card-deck">
+				<div class="card bg-light">
+					<div class="card-body">
+						<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  
+							<!-- Brand -->
+							<a class="navbar-brand" href="#"><b>Become a Member</b></a>
+						</nav>
+						
+						 <form action="/action_page.php">
+							<div class="row">
+								<div class="col">
+									<div class="form-group">
+										<label for="uid"><b>FirstName</b></label>
+										<input type="text" class="form-control form-control-lg" id="uid" required>
+									</div>
+								</div>
+								<div class="col">
+									<div class="form-group">
+										<label for="lname"><b>LastName</b></label>
+										<input type="text" class="form-control form-control-lg" id="lname" required>
+									</div>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="col">
+									<div class="form-group">
+										<label for="mname"><b>MiddleName</b></label>
+										<input type="text" class="form-control form-control-lg" id="mname" required>
+									</div>
+								</div>
+								<div class="col">
+									<div class="form-group">
+										<label for="email"><b>Email</b></label>
+										<input type="text" class="form-control form-control-lg" id="email" required>
+									</div>
+								</div>
+							</div>
+  
+							<div class="row">
+								<div class="col">
+									<div class="form-group">
+										<label for="gender"><b>Gender</b></label>
+											<select class="form-control form-control-lg" id="gender" required>
+												<option></option>
+												<option>Male</option>
+												<option>Female</option>
+											</select>
+									</div>
+								</div>
+								<div class="col">
+									<div class="form-group">
+										<label for="chapters"><b>Chapters</b></label>
+											<select class="form-control form-control-lg" id="chapters" required>
+												<option></option>
+												<option>Atlanta</option>
+												<option>California</option>
+												<option>Chicago</option>
+												<option>Dallas</option>
+												<option>Florida</option>
+												<option>Houston</option>
+												<option>Maryland</option>
+												<option>New York</option>
+												<option>Philadelphia</option>
+											</select>
+									</div>
+								</div>
+							</div>
+  
+							<div class="row">
+								<div class="col">
+									<div class="form-group">
+										<label for="pnumber"><b>PhoneNumber</b></label>
+										<input type="text" class="form-control" id="pnumber" required>
+									</div>
+								</div>
+							</div>
+  
+  
+						 <button type="submit" name="submit" class="btn btn-primary btn-block">Apply Now</button> 
+						</form> 
+					</div>
+				</div>
+				
+			<div class="card bg-light">
+    <div class="card-body">
+		<img src="images/pri2.jpg" alt="images" style="width:100%; height:100%;">
+    </div>
+					
+				 
+		</div>
+		
+	</div>
+		  </div>
+
+	<div class="footer">
+		
+			
+		
+			
+				<center>We also urge you to read our <a href="#">Policy and Terms</a> of Use to better understand how we
+				maintain our site, and how we may collect and use visitor data</center>
+					
+	
+	</div>
+
+ <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <form class="form-inline" action="/action_page.php">
+   <div class="form-group">
+    <input class="form-control mr-sm-2" type="text" placeholder="Your Email">
+    <button class="btn btn-primary" type="submit">Subscribe</button>
+  </form> 
+</nav> 
+
+ </div>
+	
+</body>
+</html>
